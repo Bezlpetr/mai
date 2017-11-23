@@ -15,13 +15,12 @@ public class Fibonacci {
 
     static long fibonumbers(int n) {
         if (n > 2) {
-            long n1;
             long n2 = 1;
             long n3 = 1;
             for (int i = 3; i <= n; i++) {
-                n1 = n2;
+                long temp = n2;
                 n2 = n3;
-                n3 = n1 + n2;
+                n3 = temp + n2;
             }
             return n3;
         } else {
