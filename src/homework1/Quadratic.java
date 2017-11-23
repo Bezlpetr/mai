@@ -1,6 +1,6 @@
 package homework1;
 
-public class quadratic {
+public class Quadratic {
     public static void main(String[] args) {
         int a = 3;
         int b = 14;

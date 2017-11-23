@@ -1,6 +1,6 @@
 package homework1;
 
-public class arrays {
+public class Arrays {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 4, 3, 8, 5, 8};
         System.out.println("Длина массива " + arr.length);
